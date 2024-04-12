@@ -28,7 +28,8 @@ export default defineConfig({
         'uuid',
         'moment',
         'rxjs',
-        '@vueuse/core'
+        '@vueuse/core',
+        'qs'
       ],
       output: {
         // 在 UMD 构建模式下为这些外部化的依赖提供一个全局变量
@@ -38,7 +39,8 @@ export default defineConfig({
           lodash: '_',
           'moment': 'moment',
           'rxjs': 'rxjs',
-          '@vueuse/core': '@vueuse/core'
+          '@vueuse/core': '@vueuse/core',
+          'qs': 'qs'
         },
         exports: 'named'
       }

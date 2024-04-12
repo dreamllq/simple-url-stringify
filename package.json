@@ -1,7 +1,7 @@
 {
   "name": "simple-url-stringify",
   "description": "url转字符串",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",

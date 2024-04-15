@@ -7,7 +7,7 @@
 npm i simple-url-stringify
 ```
 
-## 使用
+## usage
 
 ### query
 ```ts

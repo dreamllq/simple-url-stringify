@@ -1,5 +1,5 @@
 import { isObject } from 'lodash';
-import qs from './qs';
+import qs from './qs-stub';
 
 export const urlStringify = (args:{
   url:string,
